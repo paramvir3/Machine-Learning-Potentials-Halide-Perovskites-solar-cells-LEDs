@@ -1,0 +1,160 @@
+# general
+root: ./
+run_name: start
+seed: 123
+dataset_seed: 456
+append: true
+default_dtype: float32
+
+# network
+model_builders:
+  - SimpleIrrepsConfig
+  - EnergyModel
+  - PerSpeciesRescale
+  - StressForceOutput
+  - RescaleEnergyEtc
+
+num_basis: 8
+num_layers: 2     
+r_max: 8.0
+l_max: 2
+parity: true
+num_features: 32
+
+# data set
+dataset: ase                                                                       # type of data set, can be npz or ase
+dataset_file_name: ./nequip-data_melt_crystal.extxyz                               # path to data set file
+dataset_key_mapping:
+  force: forces
+dataset_include_keys:
+  - stress
+# A mapping of chemical species to type indexes is necessary if the dataset is provided with atomic numbers instead of type indexes.
+chemical_symbols:
+  - Br
+  - Cs
+  - Pb
+
+global_rescale_scale: dataset_total_energy_std
+per_species_rescale_shifts: dataset_per_atom_total_energy_mean
+per_species_rescale_scales: dataset_per_atom_total_energy_std
+
+verbose: info                                                                      # the same as python logging, e.g. warning, info, debug, error. case insensitive
+log_batch_freq: 1                                                                  # batch frequency, how often to print training errors withinin the same epoch
+log_epoch_freq: 1                                                                  # epoch frequency, how often to print 
+save_checkpoint_freq: -1                                                           # frequency to save the intermediate checkpoint. no saving of intermediate checkpoints when the value is not positive.
+save_ema_checkpoint_freq: -1                                                       # frequency to save the intermediate ema checkpoint. no saving of intermediate checkpoints when the value is not positive.
+
+# training
+n_train: 5000                                                                     # number of training data
+n_val: 1000                                                                        # number of validation data
+learning_rate: 0.005                                                               # learning rate, we found values between 0.01 and 0.005 to work best - this is often one of the most important hyperparameters to tune
+batch_size: 5                                                                      # batch size, we found it important to keep this small for most applications including forces (1-5); for energy-only training, higher batch sizes work better
+validation_batch_size: 10                                                          # batch size for evaluating the model during validation. This does not affect the training results, but using the highest value possible (<=n_val) without running out of memory will speed up your training.
+max_epochs: 100000                                                                 # stop training after _ number of epochs, we set a very large number here, it won't take this long in practice and we will use early stopping instead
+train_val_split: random                                                            # can be random or sequential. if sequential, first n_train elements are training, next n_val are val, else random, usually random is the right choice
+shuffle: true                                                                      # If true, the data loader will shuffle the data, usually a good idea
+metrics_key: validation_loss                                                       # metrics used for scheduling and saving best model. Options: `set`_`quantity`, set can be either "train" or "validation, "quantity" can be loss or anything that appears in the validation batch step header, such as f_mae, f_rmse, e_mae, e_rmse
+use_ema: true                                                                      # if true, use exponential moving average on weights for val/test, usually helps a lot with training, in particular for energy errors
+ema_decay: 0.99                                                                    # ema weight, typically set to 0.99 or 0.999
+ema_use_num_updates: true                                                          # whether to use number of updates when computing averages
+report_init_validation: true                                                       # if True, report the validation error for just initialized model
+
+# early stopping based on metrics values. 
+# LR, wall and any keys printed in the log file can be used. 
+# The key can start with Training or validation. If not defined, the validation value will be used.
+early_stopping_patiences:                                                          # stop early if a metric value stopped decreasing for n epochs
+  validation_loss: 400
+
+early_stopping_delta:                                                              # If delta is defined, a decrease smaller than delta will not be considered as a decrease
+  validation_loss: 0.005
+
+early_stopping_cumulative_delta: false                                             # If True, the minimum value recorded will not be updated when the decrease is smaller than delta
+
+early_stopping_lower_bounds:                                                       # stop early if a metric value is lower than the bound
+  LR: 1.0e-5
+
+early_stopping_upper_bounds:                                                       # stop early if a metric value is higher than the bound
+  cumulative_wall: 1.0e+100
+
+# loss function
+loss_coeffs:                                                                       # different weights to use in a weighted loss functions
+  forces:
+   - 1.0
+   - PerSpeciesL1Loss
+  stress: 1                                                                        
+  total_energy:                                                                    
+    - 1
+    - PerAtomMSELoss
+# note that the ratio between force and energy loss matters for the training process. One may consider using 1:1 with the PerAtomMSELoss. If the energy loss still significantly dominate the loss function at the initial epochs, tune the energy loss weight lower helps the training a lot.
+
+# # default loss function is MSELoss, the name has to be exactly the same as those in torch.nn.
+# the only supprted targets are forces and total_energy
+
+# here are some example of more ways to declare different types of loss functions, depending on your application:
+# loss_coeffs:
+#   total_energy: MSELoss
+#
+# loss_coeffs:
+#   total_energy:
+#   - 3.0
+#   - MSELoss
+#
+# loss_coeffs:
+#   total_energy:
+#   - 1.0
+#   - PerAtomMSELoss
+#
+# loss_coeffs:
+#   forces:
+#   - 1.0
+#   - PerSpeciesL1Loss
+#
+# loss_coeffs: total_energy
+#
+# loss_coeffs:
+#   total_energy:
+#   - 3.0
+#   - L1Loss
+#   forces: 1.0
+
+# output metrics
+metrics_components:
+  - - forces                               # key 
+    - mae                                  # "rmse" or "mae"
+  - - forces
+    - rmse
+  - - forces
+    - mae
+    - PerSpecies: True                     # if true, per species contribution is counted separately
+      report_per_component: False          # if true, statistics on each component (i.e. fx, fy, fz) will be counted separately
+  - - forces                                
+    - rmse                                  
+    - PerSpecies: True                     
+      report_per_component: False    
+  - - total_energy
+    - mae    
+  - - total_energy
+    - mae
+    - PerAtom: True                        # if true, energy is normalized by the number of atoms
+
+optimizer_name: Adam                                                          
+optimizer_amsgrad: true
+optimizer_betas: !!python/tuple
+  - 0.9
+  - 0.999
+optimizer_eps: 1.0e-08
+optimizer_weight_decay: 0
+
+max_gradient_norm: null
+
+lr_scheduler_name: ReduceLROnPlateau
+lr_scheduler_patience: 200
+lr_scheduler_factor: 0.5
+
+
+global_rescale_scale: dataset_forces_rms
+
+global_rescale_shift_trainable: false
+
+global_rescale_scale_trainable: false
+

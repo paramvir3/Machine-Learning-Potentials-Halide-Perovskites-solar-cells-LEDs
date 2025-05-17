@@ -1,0 +1,17 @@
+potential      nep.txt 
+velocity 10
+# The equilibration stage
+ensemble npt_scr 10 700 100 0 0 0 100 100 100 1000
+time_step    5.0
+dump_thermo 20000 
+dump_position 20000
+dump_restart 50000
+run 2000000
+
+# The equilibration stage
+ensemble npt_scr 700 700 100 0 0 0 100 100 100 1000
+time_step    5.0
+dump_thermo 20000 
+dump_position 20000
+dump_restart 100000
+run 500000000

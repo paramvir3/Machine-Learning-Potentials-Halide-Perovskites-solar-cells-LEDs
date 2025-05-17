@@ -1,0 +1,111 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*               Master version after 3.9.5                    *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             Tesla V100-PCIE-32GB
+    Compute capability:      7.0
+    Amount of global memory: 31.7325 GB
+    Number of SMs:           80
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 20.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Box matrix h = [a, b, c] is
+    8.8560000000e+00    0.0000000000e+00    0.0000000000e+00
+    0.0000000000e+00    8.5760000000e+00    0.0000000000e+00
+    0.0000000000e+00    0.0000000000e+00    1.2472000000e+01
+Inverse box matrix g = inv(h) is
+    1.1291779584e-01    0.0000000000e+00    0.0000000000e+00
+    0.0000000000e+00    1.1660447761e-01    0.0000000000e+00
+    0.0000000000e+00    0.0000000000e+00    8.0179602309e-02
+Do not specify initial velocities here.
+Have no grouping method.
+There are 3 atom types.
+    4 atoms of type 0.
+    4 atoms of type 1.
+    12 atoms of type 2.
+Minimum distance is larger than 2.000000 Å
+Initialized velocities with default T = 300 K.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP4 potential with 3 atom types.
+    type 0 (Cs with Z = 55).
+    type 1 (Pb with Z = 82).
+    type 2 (I with Z = 53).
+    radial cutoff = 6 A.
+    angular cutoff = 5 A.
+    MN_radial = 24.
+    enlarged MN_radial = 30.
+    enlarged MN_angular = 20.
+    n_max_radial = 8.
+    n_max_angular = 6.
+    basis_size_radial = 12.
+    basis_size_angular = 8.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 44-50-1.
+    number of neural network parameters = 6901.
+    number of descriptor parameters = 1620.
+    total number of parameters = 8521.
+
+Start to do an energy minimization.
+    using the fast inertial relaxation engine (FIRE) method.
+    with fixed box.
+    with a force tolerance of 1e-05 eV/A.
+    for maximally 100000 steps.
+
+Energy minimization started.
+    step 0: total_potential = -637.9860382080 eV, f_max = 0.1571240395 eV/A.
+    step 118: total_potential = -638.1932830811 eV, f_max = 0.0000093146 eV/A.
+Energy minimization finished.
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 0.139401 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+

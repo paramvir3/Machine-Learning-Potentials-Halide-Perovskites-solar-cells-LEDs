@@ -1,0 +1,4 @@
+potential      nep.txt 
+# The equilibration stage
+#
+minimize fire 1.0e-5 100000000

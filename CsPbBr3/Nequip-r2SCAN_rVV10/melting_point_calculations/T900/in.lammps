@@ -1,0 +1,69 @@
+units	metal
+atom_style atomic
+dimension 3
+newton off
+
+boundary p p p
+
+read_data data.CPBr
+
+variable        p_id world   1
+
+variable        temperature equal 900.0
+variable        temperature2 equal 900.0
+variable        tempDamp equal 100.0 # approx 0.1 ps
+
+variable        pressure equal 1.00
+variable        pressureDamp equal 500.0
+
+variable        seed world 1428
+
+mass            1 79.904     # Br
+mass            2 132.904999 # Cs
+mass            3 207.199997 # Pb
+
+# allegro pair style
+pair_style	nequip
+pair_coeff	* * ./best.pth Br Cs Pb
+
+neighbor 1.0 bin
+neigh_modify delay 5 every 1
+
+#write_dump all custom output.dump id type x y z fx fy fz
+#
+variable freq equal 100
+#variable dt equal 0.001
+
+thermo          ${freq}
+thermo_style    custom step temp pe ke etotal press lx ly lz xy xz yz
+restart         ${freq} restart.0 restart.2
+
+#minimize 0.0 1.0e-3 100 10000
+
+# NVT
+
+dump            myDump1 all atom 500 out.0.lammpstrj
+fix             1 all temp/csvr ${temperature} ${temperature} $(100.0*dt) ${seed}
+fix             2 all nve
+timestep        0.003
+velocity        all create ${temperature} ${seed} dist gaussian
+run             1000
+unfix           1
+unfix           2
+write_data      data.NVT
+undump          myDump1
+reset_timestep  0
+
+# NPT
+dump            myDump3 all atom 10000 out.1.lammpstrj
+fix             1 all temp/csvr ${temperature} ${temperature2} $(500.0*dt) ${seed}
+fix             2 all nph z ${pressure} ${pressure} $(500.0*dt)
+fix             3 all momentum 10000 linear 1 1 1
+run             500000000
+unfix           1
+unfix           2
+unfix           3
+undump          myDump3
+write_restart   restart.file
+write_data      data.eq
+
