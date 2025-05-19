@@ -25,11 +25,11 @@ def extract_last_total_potential_energy(file_path):
     return energies[-1] if energies else None
 
 # Assume these functions have already extracted the energy values from different paths
-delta_phase = extract_last_total_potential_energy("delta/output")
-ortho_phase = extract_last_total_potential_energy("ortho/output")
-beta_phase = extract_last_total_potential_energy("beta/output")
-cubic_phase = extract_last_total_potential_energy("cubic/output")
-delta_FAPI = extract_last_total_potential_energy("hexagonal_FAPI/output")
+delta_phase = extract_last_total_potential_energy("edge_sharing_delta_phase/output")
+ortho_phase = extract_last_total_potential_energy("orthorhombic_gamma_phase/output")
+beta_phase = extract_last_total_potential_energy("tetragonal_beta_phase/output")
+cubic_phase = extract_last_total_potential_energy("cubic_alpha_phase/output")
+delta_FAPI = extract_last_total_potential_energy("face_sharing_delta_phase/output")
 
 # Define the phases and their corresponding energy values
 phases = [r'$\delta$-Phase', r'$\gamma$-Phase', r'$\beta$-Phase', r'$\alpha$-Phase', r'$\delta$-FAPI']
