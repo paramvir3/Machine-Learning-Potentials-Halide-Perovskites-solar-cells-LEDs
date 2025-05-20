@@ -35,10 +35,10 @@
 
 ## References
 1. Lattice matched heterogeneous nucleation eliminate defective buried interface in halide perovskites: https://doi.org/10.1021/acs.chemmater.4c03034
-2. Size dependent solid-solid crystallization of halide perovskites. arXiv preprint arXiv:2404.05644 (2024) 
+2. Size dependent solid-solid crystallization of halide perovskites. https://doi.org/10.48550/arXiv.2404.05644
 3. Crystallization of FAPbI3: Polytypes and stacking faults." The Journal of Chemical Physics 159.15 (2023): https://doi.org/10.1063/5.0165285
 4. Organic Spacers in 2D Perovskites: General Trends and Structure‐Property Relationships from Computational Studies. Helvetica Chimica Acta 104.4 (2021): e2000232: https://doi.org/10.1002/hlca.202000232
-5. A combined molecular dynamics and experimental study of two-step process enabling low-temperature formation of phase-pure α-FAPbI3.Sci. Adv.7,eabe3326(2021).DOI:10.1126/sciadv.abe3326
+5. A combined molecular dynamics and experimental study of two-step process enabling low-temperature formation of phase-pure α-FAPbI3.Sci. Adv.7,eabe3326(2021) https://www.science.org/doi/10.1126/sciadv.abe3326 
 
 ## Contact
 Issues 
