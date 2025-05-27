@@ -30,8 +30,7 @@
 
   -- Tilted γ-β-α transitions with temperature
 
-![latice_parameters](https://github.com/user-attachments/assets/d460b85f-577e-4665-85b0-cf55cf24679e)
-
+[latice_parameters.pdf](https://github.com/user-attachments/files/20456797/latice_parameters.pdf)
 
 ## Acknowledgements
 - Swiss National Science Foundation through post-doc mobility Fellowship No. P500PN_206693
