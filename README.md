@@ -28,7 +28,7 @@
   
 ![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
 
-![latice_parameters](https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562 =150x100)
+<img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="150" height="100">
 
 
 
