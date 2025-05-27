@@ -26,7 +26,7 @@
 
 - CsPbI3 [2]
 
-Tilted phase transitions: γ --> β --> α and comparison with experiments[]
+Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
 
 <img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="500" >
 
@@ -46,7 +46,8 @@ Brute force δ-perovskite solid-solid phase transitions by co-existing simulatio
 2. Size dependent solid-solid crystallization of halide perovskites. https://doi.org/10.48550/arXiv.2404.05644
 3. Crystallization of FAPbI3: Polytypes and stacking faults." The Journal of Chemical Physics 159.15 (2023): https://doi.org/10.1063/5.0165285
 4. Organic Spacers in 2D Perovskites: General Trends and Structure‐Property Relationships from Computational Studies. Helvetica Chimica Acta 104.4 (2021): e2000232: https://doi.org/10.1002/hlca.202000232
-5. A combined molecular dynamics and experimental study of two-step process enabling low-temperature formation of phase-pure α-FAPbI3.Sci. Adv.7,eabe3326(2021) https://www.science.org/doi/10.1126/sciadv.abe3326 
+5. A combined molecular dynamics and experimental study of two-step process enabling low-temperature formation of phase-pure α-FAPbI3.Sci. Adv.7,eabe3326(2021) https://www.science.org/doi/10.1126/sciadv.abe3326
+6. https://doi.org/10.1002/adma.202001069, https://doi.org/10.1021/acsnano.8b00267
 
 ## Contact
 Issues 
