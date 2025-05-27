@@ -29,7 +29,10 @@
 ![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
 
   - Tilted γ-β-α transitions with temperature
-![latice_parameters](https://github.com/user-attachments/assets/153155af-0e53-4f0f-869e-87b8322de84a | width=100)
+
+<p align="center">
+    <img src="[assets/image.png](https://github.com/user-attachments/assets/153155af-0e53-4f0f-869e-87b8322de84a )" alt="Description" width="100">
+</p>
 
 
 ## Acknowledgements
