@@ -1,0 +1,11 @@
+potential      nep.txt
+minimize fire 1.0e-5 1000 1
+
+velocity 20
+# The equilibration stage
+ensemble npt_mttk temp 20 650 tri 0.0 0.0
+time_step    5.0
+dump_thermo 10000
+dump_exyz 10000 0 0 0
+dump_restart 50000
+run 10000000
