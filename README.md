@@ -53,5 +53,5 @@ Brute force δ-perovskite solid-solid phase transitions by co-existing simulatio
 6. https://doi.org/10.1002/adma.202001069, https://doi.org/10.1021/acsnano.8b00267
 
 ## Contact
-Issues 
+paramvir.chem@gmail.com
 
