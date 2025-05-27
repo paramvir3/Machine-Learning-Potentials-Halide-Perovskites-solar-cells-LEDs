@@ -28,6 +28,9 @@
   
 ![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
 
+<img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562)" alt="latice_parameters" width="300" height="200">
+
+
 
 ## Acknowledgements
 - Swiss National Science Foundation through post-doc mobility Fellowship No. P500PN_206693
