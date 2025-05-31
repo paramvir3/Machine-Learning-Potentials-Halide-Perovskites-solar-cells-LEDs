@@ -32,6 +32,10 @@ Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
 
 <img src="https://github.com/user-attachments/assets/1e31df37-bc42-4569-9f81-666180eb6392" alt="heat capacity" width="350" >
 
+Melting point 
+
+<img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="350" >
+
 
 Brute force δ-perovskite solid-solid phase transitions by co-existing simulations
 
