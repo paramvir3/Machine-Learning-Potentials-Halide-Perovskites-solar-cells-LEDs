@@ -1,0 +1,17 @@
+potential      nep.txt 
+velocity 760 
+# The equilibration stage
+ensemble npt_mttk temp 760 760 iso 0.000101325 0.000101325
+time_step    5.0
+dump_thermo 1000 
+dump_position 10000
+dump_restart 50000
+run 1000000
+
+# The equilibration stage
+ensemble npt_mttk temp 760 760 z 0.000101325 0.000101325
+time_step    5.0
+dump_thermo 100 
+dump_position 10000
+dump_restart 50000
+run 500000000
