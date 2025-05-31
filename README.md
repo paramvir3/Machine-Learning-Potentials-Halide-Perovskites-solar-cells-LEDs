@@ -28,7 +28,7 @@
 
 Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
 
-<img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="200" >
+<img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="210" >
 
 <img src="https://github.com/user-attachments/assets/1e31df37-bc42-4569-9f81-666180eb6392" alt="heat capacity" width="250" >
 
