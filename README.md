@@ -26,7 +26,9 @@
 
 - CsPbI3 [2]
 
-<img src="https://github.com/user-attachments/assets/1a4ddf07-44db-4880-a63a-1698b8fd721f" alt="relative energies" width="200" >
+Relative energetics
+
+<img src="https://github.com/user-attachments/assets/90ce9e35-0aea-4756-84f7-c3e5c0bb06a0" alt="relative energies" width="200" >
 
 Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
 
