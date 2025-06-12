@@ -28,7 +28,7 @@
 
 Relative energetics
 
-<img src="https://github.com/user-attachments/assets/90ce9e35-0aea-4756-84f7-c3e5c0bb06a0" alt="relative energies" width="200" >
+<img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
 
 Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
 
