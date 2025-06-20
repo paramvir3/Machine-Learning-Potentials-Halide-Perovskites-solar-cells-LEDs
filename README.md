@@ -41,6 +41,11 @@ Melting point
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
 
+Lattice thermal conductivity
+
+<img src="https://github.com/user-attachments/assets/2bcc7628-b49a-41b3-9885-8f6d4c6e95e9" alt="Lattice thermal conductivity" width="200" >
+
+
 
 Brute force δ-perovskite solid-solid phase transitions by co-existing simulations
 
