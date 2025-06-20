@@ -10,6 +10,7 @@
 * ASE:
 * ACE-Julia:
 * GRACE:
+* k_SRME:
 * LAMMPS:
 * NEP-GPUMD:
 * Nequip:
