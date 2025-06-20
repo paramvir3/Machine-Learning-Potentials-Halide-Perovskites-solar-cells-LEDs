@@ -43,7 +43,7 @@ Melting point
 
 Lattice thermal conductivity
 
-<img src="https://github.com/user-attachments/assets/2bcc7628-b49a-41b3-9885-8f6d4c6e95e9" alt="Lattice thermal conductivity" width="200" >
+<img src="https://github.com/user-attachments/assets/60cc0584-969b-45b0-a102-e660c64ea4e3" alt="Lattice thermal conductivity" width="200" >
 
 
 
