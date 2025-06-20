@@ -10,7 +10,7 @@
 * ASE:
 * ACE-Julia:
 * GRACE:
-* k_SRME:
+* k_SRME:https://github.com/MPA2suite/k_SRME.git
 * LAMMPS:
 * NEP-GPUMD:
 * Nequip:
