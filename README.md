@@ -60,7 +60,7 @@ Brute force δ-perovskite solid-solid phase transitions by co-existing simulatio
 - Swiss National Science Foundation through post-doc mobility Fellowship No. P500PN_206693
 
 ## References
-1. Lattice matched heterogeneous nucleation eliminate defective buried interface in halide perovskites: https://doi.org/10.1021/acs.chemmater.4c03034 , https://doi.org/10.5281/zenodo.10975237
+1. Lattice matched heterogeneous nucleation eliminate defective buried interface in halide perovskites: https://doi.org/10.1021/acs.chemmater.4c03034 , DFT dataset: https://doi.org/10.5281/zenodo.10975237
 2. Size dependent solid-solid crystallization of halide perovskites. https://doi.org/10.48550/arXiv.2404.05644
 3. Crystallization of FAPbI3: Polytypes and stacking faults." The Journal of Chemical Physics 159.15 (2023): https://doi.org/10.1063/5.0165285
 4. Organic Spacers in 2D Perovskites: General Trends and Structure‐Property Relationships from Computational Studies. Helvetica Chimica Acta 104.4 (2021): e2000232: https://doi.org/10.1002/hlca.202000232
