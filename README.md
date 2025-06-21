@@ -41,6 +41,11 @@ Melting point
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
 
+Lattice thermal conductivity
+
+<img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
+
+
 
 Brute force δ-perovskite solid-solid phase transitions by co-existing simulations
 
@@ -62,6 +67,7 @@ Brute force δ-perovskite solid-solid phase transitions by co-existing simulatio
 5. A combined molecular dynamics and experimental study of two-step process enabling low-temperature formation of phase-pure α-FAPbI3.Sci. Adv.7,eabe3326(2021) https://www.science.org/doi/10.1126/sciadv.abe3326
 6. https://doi.org/10.1002/adma.202001069, https://doi.org/10.1021/acsnano.8b00267
 7. https://doi.org/10.1126/science.aax3878
+8. https://doi.org/10.1073/pnas.1711744114
 
 ## Contact
 paramvir.chem@gmail.com
