@@ -4,6 +4,11 @@
 [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.11599) 
 
 ## General Information
+- GRACE-1Layer-FOUNDATIONAL model can be used
+  1. OD, 1D, 2D, and 3D halide perovskites
+  2. Any other componets of perovskite solar cells including ETLs like TiO2, SnO2, etc, and including SPIRO and other organic HTMs etc.
+   -- Wide range of testing is under progress since last year, finetuning is recommended for targeted problems
+  
 - Use experimental structures https://github.com/paramvir3/Crystal-Structures-Halide-perovskite of halide perovskites
 
 ## Codes Used
