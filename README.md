@@ -5,12 +5,14 @@
 
 ## General Information
 - GRACE-1Layer-FOUNDATIONAL model can be used for:
+  
   1. OD, 1D, 2D, and 3D halide perovskites
   2. Any other components of perovskite solar cells including ETLs like TiO2, SnO2, SAMs etc, and including SPIRO and other organic HTMs etc, all kinds of passivating molecules, pseudo-halides mixtures
   3. All kinds of phase transitions can be performed for example titled phase transitions, mixed cation-anion perovskite crystallization from homogeneous mixtures of ions, non-perovskite to perovskite phase transitions, nucleation from solutions etc.
-   -- Testing is under progress for many aspects since last year, finetuning is recommended for targeted problems
+  4. Also perovskite LEDs and their components
      
-  
+  Important Note: Testing is under progress for many aspects since last year, finetuning is recommended for targeted problems
+     
 - Use experimental structures https://github.com/paramvir3/Crystal-Structures-Halide-perovskite of halide perovskites
 
 ## Codes Used
