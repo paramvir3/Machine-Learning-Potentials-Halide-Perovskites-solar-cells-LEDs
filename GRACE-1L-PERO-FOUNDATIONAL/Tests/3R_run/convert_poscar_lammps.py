@@ -1,0 +1,13 @@
+from ase.io import read, write
+from ase.io.espresso import read_espresso_out
+from ase.visualize import view
+from ase.build import bulk
+from ase.build.tools import sort
+
+all_atoms = read('3R.vasp')
+
+supercell = all_atoms.repeat((6,6,4))
+
+all_atoms=sort(supercell)
+
+write('structure.data', all_atoms, format='lammps-data')
