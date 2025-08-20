@@ -1,0 +1,57 @@
+seed: 1
+cutoff: n/a
+
+data:
+  filename: training.pkl.gz
+  test_filename: testing.pkl.gz
+  # test_size: 0.01
+  reference_energy: 0
+  stress_units: eV/A3 # eV/A3 (default) or GPa or kbar or -kbar
+
+
+potential:
+  filename: path_to_/seed/1/model.yaml
+  checkpoint_name: path_to_/seed/1/checkpoints/checkpoint.index
+  reduce_elements: True 
+
+fit:
+  loss: {
+    energy: { weight: 1.0, type: huber , delta: 1.00 },
+    forces: { weight: 1.0, type: huber , delta: 1.00 },
+    stress: { weight: 0.1, type: huber , delta: 1.00 },
+    
+  }
+
+  maxiter: 10000 # Number of epochs / iterations
+
+  optimizer: Adam
+  opt_params: {
+            learning_rate: 0.001,
+            amsgrad: True,
+            use_ema: True,
+            ema_momentum: 0.99,
+            weight_decay: null,
+            clipvalue: 1.0,
+        }
+
+  # for learning-rate reduction
+  learning_rate_reduction: { patience: 20, factor: 0.98, min: 1.0e-7, stop_at_min: True, resume_lr: True, }
+
+  #  optimizer: L-BFGS-B
+  #  opt_params: { "maxcor": 100, "maxls": 20 }
+
+  ## needed for low-energy tier metrics and for "convex_hull"-based distance of energy-based weighting scheme
+  compute_convex_hull: False
+  batch_size: 32 # Important hyperparameter for Adam and irrelevant (but must be) for L-BFGS-B
+  test_batch_size: 64 # test batch size (optional)
+
+  jit_compile: True
+  eval_init_stats: True # to evaluate initial metrics
+
+  train_max_n_buckets: 6 # max number of buckets (group of batches of same shape) in train set
+  test_max_n_buckets: 2 # same for test
+
+  checkpoint_freq: 2 # frequency for **REGULAR** checkpoints.
+  #save_all_regular_checkpoints: True # to store ALL regular checkpoints
+  progressbar: True # show batch-evaluation progress bar
+  train_shuffle: True # shuffle train batches on every epoch
