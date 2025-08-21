@@ -24,7 +24,7 @@ mass            4 15.999   # O
 
 pair_style  grace
 
-pair_coeff * * /mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/Grace/GRACE-1L-train/pero_1L_H100/restart_16_save/seed/1/saved_model C H N O
+pair_coeff * * path_to/saved_model C H N O
 
 
 neighbor 1.0 bin
