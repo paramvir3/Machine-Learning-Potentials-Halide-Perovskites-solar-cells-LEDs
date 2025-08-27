@@ -58,7 +58,7 @@
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
 
-2. Simulations for designing and improving experiments for solar cells and LEDs [10-12]:
+2. Simulations for designing and improving experiments for solar cells and LEDs [11-13]:
 
 * Smaller scale MD simulations
 
@@ -67,7 +67,6 @@
 * Size Matters: device scale million atoms MD simulations revealing Zig-Zag Ruddlesden-Popper (RP) grain boundaries 
 
 ![SM6-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/712eff9b-64b5-4c7f-9a9f-5f194a9c48c6)
-
 
 
 
@@ -85,6 +84,10 @@
 7. https://doi.org/10.1126/science.aax3878
 8. https://doi.org/10.1073/pnas.1711744114
 9. 10.1524/zpch.1992.175.part_1.063
+
+11. Vertically stacked monolithic perovskite colour photodetectors. Nature 642, 592–598 (2025). https://doi.org/10.1038/s41586-025-09062-3
+12. Intragrain 3D perovskite heterostructure for high-performance pure-red perovskite LEDs. Nature 641, 352–357 (2025). https://doi.org/10.1038/s41586-025-08867-6
+13. Ruddlesden–Popper Defects Act as a Free Surface: Role in Formation and Photophysical Properties of CsPbI3: https://doi.org/10.1002/adma.202501788
 
 ## Contact
 paramvir.chem@gmail.com
