@@ -64,7 +64,7 @@
 
 -- Smaller scale MD simulations
 
-[new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
+![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
 
 -- Device scale MD simulations
 
