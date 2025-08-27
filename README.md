@@ -60,11 +60,11 @@
 
 2. Simulations for designing and improving experiments:
    
-* Brute force non-perovskite to perovskite phase transitions by co-existing simulations
-
-![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
-
 * All-atom device scale crystallization
+
+###![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
+
+
 
 
 
