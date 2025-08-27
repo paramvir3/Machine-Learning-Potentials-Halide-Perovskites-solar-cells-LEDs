@@ -34,7 +34,7 @@
 
 ![melt_crystal](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/803ad827-2fea-4ed7-8696-f46d1f5ee1fe)
 
-- CsPbI<sub>3</sub> [2]
+- CsPbI<sub>3</sub> [2] -- Neuroevolution Potential (NEP) and GPUMD
 1. Benchmarking against experiments:
 
 * &Delta; H: relative enthalpy (Kj/mol)
