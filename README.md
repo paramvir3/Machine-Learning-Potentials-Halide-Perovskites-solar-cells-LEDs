@@ -35,7 +35,7 @@
 ![melt_crystal](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/803ad827-2fea-4ed7-8696-f46d1f5ee1fe)
 
 - CsPbI<sub>3</sub> [2]
-Benchmarking against experiments:
+1. Benchmarking against experiments:
 
 * &Delta; H: relative enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
@@ -54,7 +54,9 @@ Benchmarking against experiments:
 
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
-5. Crystallization: Brute force non-perovskite to perovskite phase transitions by co-existing simulations
+2. Simulations for designing experiments:
+   
+* Crystallization: Brute force non-perovskite to perovskite phase transitions by co-existing simulations
 
 ![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
 
