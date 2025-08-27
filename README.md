@@ -30,17 +30,17 @@
 * 7Net:
 
 ## Features
-- CsPbBr3 [1]
+- CsPbBr<sub>3</sub> [1]
 
 ![melt_crystal](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/803ad827-2fea-4ed7-8696-f46d1f5ee1fe)
 
-- CsPbI3 [2]
+- CsPbI<sub>3</sub> [2]
 Experimental property prediction:
 
 * &Delta; H: enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
 
-* C<sub>P</sub>: γ --> β --> α and comparison with experiments[6]
+* C<sub>P</sub>: Heat Capacity of γ --> β --> α
 
 <img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="215" >
 
@@ -50,11 +50,11 @@ Experimental property prediction:
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
 
-* K_T: Wigner lattice thermal conductivity
+* k<sub>T</sub>: Wigner lattice thermal conductivity
 
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
-5. Crystallization: Brute force δ-perovskite solid-solid phase transitions by co-existing simulations
+5. Crystallization: Brute force non-perovskite to perovskite phase transitions by co-existing simulations
 
 ![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
 
