@@ -37,7 +37,7 @@
 - CsPbI3 [2]
 Experimental property prediction:
 
-* &deltaH: enthalpy (Kj/mol)
+* | &Delta; |H: enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
 
 * Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
