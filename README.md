@@ -35,7 +35,7 @@
 ![melt_crystal](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/803ad827-2fea-4ed7-8696-f46d1f5ee1fe)
 
 - CsPbI<sub>3</sub> [2]
-Experimental property prediction:
+Benchmarking against experiments:
 
 * &Delta; H: enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
