@@ -30,7 +30,7 @@
 * 7Net:
 
 ## Features
-- CsPbBr<sub>3</sub> [1]
+- CsPbBr<sub>3</sub> [1] -- NEQUIP message passing machine learning interatomic potentials
 
 ![melt_crystal](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/803ad827-2fea-4ed7-8696-f46d1f5ee1fe)
 
