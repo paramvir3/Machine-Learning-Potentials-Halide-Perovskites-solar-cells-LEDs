@@ -37,10 +37,10 @@
 - CsPbI<sub>3</sub> [2]
 Benchmarking against experiments:
 
-* &Delta; H: enthalpy (Kj/mol)
+* &Delta; H: relative enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
 
-* C<sub>P</sub>: Heat Capacity of γ --> β --> α
+* C<sub>P</sub>: Heat Capacity of tilted phase transitions γ --> β --> α
 
 <img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="215" >
 
