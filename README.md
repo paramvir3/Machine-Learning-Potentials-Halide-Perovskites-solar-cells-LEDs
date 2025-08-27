@@ -37,20 +37,20 @@
 - CsPbI3 [2]
 Experimental property prediction:
 
-1. Relative energetics and comparison with experiments
+* &deltaH: enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
 
-2. Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
+* Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
 
 <img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="215" >
 
 <img src="https://github.com/user-attachments/assets/1e31df37-bc42-4569-9f81-666180eb6392" alt="heat capacity" width="250" >
 
-3. Tₘ: melting point (K)
+* Tₘ: melting point (K)
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
 
-4. K_T: Wigner lattice thermal conductivity
+* K_T: Wigner lattice thermal conductivity
 
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
