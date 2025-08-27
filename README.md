@@ -58,7 +58,7 @@
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
 
-2. Simulations for designing experiments:
+2. Simulations for designing and improving experiments:
    
 * Crystallization: Brute force non-perovskite to perovskite phase transitions by co-existing simulations
 
