@@ -40,7 +40,7 @@ Experimental property prediction:
 * &Delta; H: enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
 
-* Tilted phase transitions: γ --> β --> α and comparison with experiments[6]
+* C<sub>P</sub>: γ --> β --> α and comparison with experiments[6]
 
 <img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="215" >
 
