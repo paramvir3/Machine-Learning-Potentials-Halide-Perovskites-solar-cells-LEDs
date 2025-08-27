@@ -50,7 +50,7 @@
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
 
-* k<sub>T</sub>: Wigner lattice thermal conductivity
+* k<sub>T</sub>: lattice thermal conductivity
 
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
