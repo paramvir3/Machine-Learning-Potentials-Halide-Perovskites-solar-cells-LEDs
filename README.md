@@ -59,14 +59,12 @@
 
 
 2. Simulations for designing and improving experiments:
-   
-* All-atom device scale crystallization
 
--- Smaller scale MD simulations
+* Smaller scale MD simulations
 
 ![new_gif](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/1f028241-0ac0-4797-ba8a-91ec38bfbfea)
 
--- Device scale MD simulations
+* Device scale million atoms MD simulations
 
 ![SM6-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/712eff9b-64b5-4c7f-9a9f-5f194a9c48c6)
 
