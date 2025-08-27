@@ -40,15 +40,18 @@
 * &Delta; H: relative enthalpy (Kj/mol)
 <img src="https://github.com/user-attachments/assets/be4c6bf8-8d44-46df-a1b3-7c2e845c0d32" alt="relative energies" width="200" >
 
+
 * C<sub>P</sub>: Heat Capacity of tilted phase transitions γ --> β --> α
 
 <img src="https://github.com/user-attachments/assets/a5a565b1-fe0c-436b-b473-e6eed0ce9562" alt="latice_parameters" width="215" >
 
 <img src="https://github.com/user-attachments/assets/1e31df37-bc42-4569-9f81-666180eb6392" alt="heat capacity" width="250" >
 
+
 * T<sub>m</sub>: melting point (K), T<sub>m</sub> <sub>experiment</sub> = 750K
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
+
 
 * k<sub>T</sub>: lattice thermal conductivity
 
