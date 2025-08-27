@@ -88,6 +88,7 @@
 11. Vertically stacked monolithic perovskite colour photodetectors. Nature 642, 592–598 (2025). https://doi.org/10.1038/s41586-025-09062-3
 12. Intragrain 3D perovskite heterostructure for high-performance pure-red perovskite LEDs. Nature 641, 352–357 (2025). https://doi.org/10.1038/s41586-025-08867-6
 13. Ruddlesden–Popper Defects Act as a Free Surface: Role in Formation and Photophysical Properties of CsPbI3: https://doi.org/10.1002/adma.202501788
+14. Nanoscale heterophase regulation enables sunlight-like full-spectrum white electroluminescence. Nat Commun 16, 3621 (2025). https://doi.org/10.1038/s41467-025-58743-0
 
 ## Contact
 paramvir.chem@gmail.com
