@@ -46,7 +46,7 @@ Benchmarking against experiments:
 
 <img src="https://github.com/user-attachments/assets/1e31df37-bc42-4569-9f81-666180eb6392" alt="heat capacity" width="250" >
 
-* T<sub>m</sub>: melting point (K), T<sub>m</sub> <sub>experiment</sub> = 780K
+* T<sub>m</sub>: melting point (K), T<sub>m</sub> <sub>experiment</sub> = 750K
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
 
