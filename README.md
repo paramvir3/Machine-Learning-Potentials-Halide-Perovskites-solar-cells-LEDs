@@ -96,8 +96,8 @@
 3. Metalorganic vapor phase epitaxial growth of a high quality GaN film using an AlN buffer layer: https://doi.org/10.1063/1.96549
 4. GaN Growth Using GaN Buffer Layer: 10.1143/JJAP.30.L1705
 5. Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites: https://doi.org/10.1021/ja00072a025
-6. Light trapping properties of pyramidally textured surfaces Available: https://doi.org/10.1063/1.339189
-7. Walter Kohn: THE POWER OF THE SUN
+6. Light trapping properties of pyramidally textured surface: https://doi.org/10.1063/1.339189
+7. Walter Kohn: THE POWER OF THE SUN, https://powerofthesun.physics.ucsb.edu/
 
 
 ## Contact
