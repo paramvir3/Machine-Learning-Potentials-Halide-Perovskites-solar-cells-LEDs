@@ -48,7 +48,7 @@
 <img src="https://github.com/user-attachments/assets/1e31df37-bc42-4569-9f81-666180eb6392" alt="heat capacity" width="250" >
 
 
-* T<sub>m</sub>: melting point (K), T<sub>m</sub> <sub>experiment</sub> = 750K
+* T<sub>m</sub>: melting point (K), T<sub>m</sub> <sub>simulatons</sub> ≈ 775K,  T<sub>m</sub> <sub>experiment</sub> = 750K
 
 <img src="https://github.com/user-attachments/assets/b1f918da-f912-4a2a-958d-05749fb9266f" alt="Melting point" width="200" >
 
@@ -58,7 +58,7 @@
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
 
-2. Simulations for designing and improving experiments for solar cells and LEDs [11-13]:
+2. Simulations for designing and improving experiments for solar cells and LEDs, experiments (discoveries) reported after observation from simulations [11-15]:
 
 * Smaller scale MD simulations
 
@@ -85,10 +85,12 @@
 8. https://doi.org/10.1073/pnas.1711744114
 9. 10.1524/zpch.1992.175.part_1.063
 
+## Experiments after simulations
 11. Vertically stacked monolithic perovskite colour photodetectors. Nature 642, 592–598 (2025). https://doi.org/10.1038/s41586-025-09062-3
 12. Intragrain 3D perovskite heterostructure for high-performance pure-red perovskite LEDs. Nature 641, 352–357 (2025). https://doi.org/10.1038/s41586-025-08867-6
 13. Ruddlesden–Popper Defects Act as a Free Surface: Role in Formation and Photophysical Properties of CsPbI3: https://doi.org/10.1002/adma.202501788
 14. Nanoscale heterophase regulation enables sunlight-like full-spectrum white electroluminescence. Nat Commun 16, 3621 (2025). https://doi.org/10.1038/s41467-025-58743-0
+15. Intermediate phase evolution for stable and oriented evaporated wide-bandgap perovskite solar cells. Nat. Mater. (2025). https://doi.org/10.1038/s41563-025-02375-8
 
 ## Fundamental Inspirations: 
 1. Double heterostructures https://www.nobelprize.org/uploads/2018/06/alferov-lecture.pdf
