@@ -91,6 +91,7 @@
 13. Ruddlesden–Popper Defects Act as a Free Surface: Role in Formation and Photophysical Properties of CsPbI3: https://doi.org/10.1002/adma.202501788
 14. Nanoscale heterophase regulation enables sunlight-like full-spectrum white electroluminescence. Nat Commun 16, 3621 (2025). https://doi.org/10.1038/s41467-025-58743-0
 15. Intermediate phase evolution for stable and oriented evaporated wide-bandgap perovskite solar cells. Nat. Mater. (2025). https://doi.org/10.1038/s41563-025-02375-8
+16. Long-distance remote epitaxy. Nature 646, 584–591 (2025). https://doi.org/10.1038/s41586-025-09484-z
 
 ## Fundamental Inspirations: 
 1. Double heterostructures https://www.nobelprize.org/uploads/2018/06/alferov-lecture.pdf
