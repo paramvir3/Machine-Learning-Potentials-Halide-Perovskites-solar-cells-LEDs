@@ -92,6 +92,7 @@
 14. Nanoscale heterophase regulation enables sunlight-like full-spectrum white electroluminescence. Nat Commun 16, 3621 (2025). https://doi.org/10.1038/s41467-025-58743-0
 15. Intermediate phase evolution for stable and oriented evaporated wide-bandgap perovskite solar cells. Nat. Mater. (2025). https://doi.org/10.1038/s41563-025-02375-8
 16. Long-distance remote epitaxy. Nature 646, 584–591 (2025). https://doi.org/10.1038/s41586-025-09484-z
+17. Picosecond quantum transients in halide perovskite nanodomain superlattices. Nat. Nanotechnol. (2025). https://doi.org/10.1038/s41565-025-02036-6
 
 ## Fundamental Inspirations: 
 1. Double heterostructures https://www.nobelprize.org/uploads/2018/06/alferov-lecture.pdf
