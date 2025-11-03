@@ -95,13 +95,14 @@
 17. Picosecond quantum transients in halide perovskite nanodomain superlattices. Nat. Nanotechnol. (2025). https://doi.org/10.1038/s41565-025-02036-6
 
 ## Fundamental Inspirations: 
-1. Double heterostructures https://www.nobelprize.org/uploads/2018/06/alferov-lecture.pdf
-2. Double heterostructure: Polar-on-nonpolar epitaxy: https://doi.org/10.1016/0022-0248(87)90391-5
-3. Blue LED: Metalorganic vapor phase epitaxial growth of a high quality GaN film using an AlN buffer layer: https://doi.org/10.1063/1.96549
-4. Blue LED: GaN Growth Using GaN Buffer Layer: 10.1143/JJAP.30.L1705
-5. Quantum dots: Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites: https://doi.org/10.1021/ja00072a025
-6. Silicon solar cells: Light trapping properties of pyramidally textured surface: https://doi.org/10.1063/1.339189
-7. Walter Kohn: THE POWER OF THE SUN, https://powerofthesun.physics.ucsb.edu/
+1. https://www.nobelprize.org/uploads/2018/06/esaki-lecture.pdf
+2. Double heterostructure: https://www.nobelprize.org/uploads/2018/06/alferov-lecture.pdf
+3. Double heterostructure: Polar-on-nonpolar epitaxy: https://doi.org/10.1016/0022-0248(87)90391-5
+4. Blue LED: Metalorganic vapor phase epitaxial growth of a high quality GaN film using an AlN buffer layer: https://doi.org/10.1063/1.96549
+5. Blue LED: GaN Growth Using GaN Buffer Layer: 10.1143/JJAP.30.L1705
+6. Quantum dots: Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites: https://doi.org/10.1021/ja00072a025
+7. Silicon solar cells: Light trapping properties of pyramidally textured surface: https://doi.org/10.1063/1.339189
+8. Walter Kohn: THE POWER OF THE SUN, https://powerofthesun.physics.ucsb.edu/
 
 
 ## Contact
