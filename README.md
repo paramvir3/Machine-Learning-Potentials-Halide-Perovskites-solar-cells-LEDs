@@ -93,6 +93,7 @@
 15. Intermediate phase evolution for stable and oriented evaporated wide-bandgap perovskite solar cells. Nat. Mater. (2025). https://doi.org/10.1038/s41563-025-02375-8
 16. Long-distance remote epitaxy. Nature 646, 584–591 (2025). https://doi.org/10.1038/s41586-025-09484-z
 17. Picosecond quantum transients in halide perovskite nanodomain superlattices. Nat. Nanotechnol. (2025). https://doi.org/10.1038/s41565-025-02036-6
+18. Layer-by-layer epitaxial growth of perovskite heterostructures with tunable band offsets.Science390,716-721(2025).DOI:10.1126/science.adx5685
 
 ## Fundamental Inspirations: 
 1. https://www.nobelprize.org/uploads/2018/06/esaki-lecture.pdf
