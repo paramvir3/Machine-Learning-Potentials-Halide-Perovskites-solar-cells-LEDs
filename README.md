@@ -57,6 +57,10 @@
 
 <img src="https://github.com/user-attachments/assets/b5b976e7-2a8f-44af-b2b9-2c47da025a36" alt="Lattice thermal conductivity" width="200" >
 
+* &Delta; G: Phase Diagram (Experiments = T600): Thermodynamic Integration quick tests using ASE and GPUMD
+
+<img width="200" alt="phase_diagram_plot" src="https://github.com/user-attachments/assets/f3b5aaae-0ae3-470d-beb8-eceda221a69f" >
+
 
 2. Simulations for designing and improving experiments for solar cells and LEDs, experiments (discoveries) reported after observation from simulations [11-15]:
 
