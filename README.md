@@ -59,8 +59,7 @@
 
 * &Delta; G: Phase Diagram (Experiments T<sub>experiment</sub> = 600K): Thermodynamic Integration (8640 atoms)
 
-<img src="https://github.com/user-attachments/assets/33d45785-f404-4df1-8bd3-34f84c29eebe" alt="phase_diagram_plot" width="200" >
-
+<img src="https://github.com/user-attachments/assets/33d45785-f404-4df1-8bd3-34f84c29eebe" alt="phase_diagram_plot" width="300" >
 
 
 2. Simulations for designing and improving experiments for solar cells and LEDs, experiments (discoveries) reported after observation from simulations [11-15]:
