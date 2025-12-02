@@ -1,0 +1,13 @@
+potential      nep.txt 
+
+minimize fire 1.0e-5 100000 1
+
+time_step  1.0
+
+#ensemble ti_spring temp 300 tswitch 800000 tequil 50000 tperiod 100 spring Cs 0.373086 Pb 0.869941 I 0.479214
+
+ensemble ti_spring temp 300 tswitch 300000 tequil 10000 tperiod 100
+run 620000
+
+ensemble ti_rs temp 300 700 aniso 0.000101325 tswitch 300000 tequil 10000
+run 620000

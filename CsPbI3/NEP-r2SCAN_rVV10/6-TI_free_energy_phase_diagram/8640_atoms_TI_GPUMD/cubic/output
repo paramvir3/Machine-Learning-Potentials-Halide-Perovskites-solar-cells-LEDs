@@ -1,0 +1,185 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                     version 4.6                             *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             NVIDIA A100-SXM4-80GB
+    Compute capability:      8.0
+    Amount of global memory: 79.2517 GB
+    Number of SMs:           108
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 8640.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Box matrix h = [a, b, c] is
+    7.5472800000e+01    0.0000000000e+00    0.0000000000e+00
+    0.0000000000e+00    7.5472800000e+01    0.0000000000e+00
+    0.0000000000e+00    0.0000000000e+00    7.5472800000e+01
+Inverse box matrix g = inv(h) is
+    1.3249806553e-02    0.0000000000e+00    0.0000000000e+00
+    0.0000000000e+00    1.3249806553e-02    0.0000000000e+00
+    0.0000000000e+00    0.0000000000e+00    1.3249806553e-02
+Do not specify initial velocities here.
+Have no grouping method.
+There are 3 atom types.
+    1728 atoms of type 0.
+    1728 atoms of type 1.
+    5184 atoms of type 2.
+Initialized velocities with default T = 300 K.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP4 potential with 3 atom types.
+    type 0 (Cs with Z = 55).
+    type 1 (Pb with Z = 82).
+    type 2 (I with Z = 53).
+    radial cutoff = 6 A.
+    angular cutoff = 5 A.
+    MN_radial = 24.
+    enlarged MN_radial = 30.
+    enlarged MN_angular = 20.
+    n_max_radial = 8.
+    n_max_angular = 6.
+    basis_size_radial = 12.
+    basis_size_angular = 8.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 44-50-1.
+    number of neural network parameters = 6901.
+    number of descriptor parameters = 1620.
+    total number of parameters = 8521.
+
+Start to do an energy minimization.
+    using the fast inertial relaxation engine (FIRE) method.
+    with variable box.
+    with a force tolerance of 1e-05 eV/A.
+    for maximally 100000 steps.
+
+Energy minimization with changed box started.
+    step 0: total_potential = -275437.5040283203 eV, f_max = 0.0175502406 eV/A, pressure = -0.0565103146 GPa.
+    step 6153: total_potential = -275661.4876308441 eV, f_max = 0.0000099978 eV/A, pressure = -0.0000000583 GPa.
+Energy minimization finished.
+Time step for this run is 1 fs.
+Thermostat: target temperature is 300.000000 k, t_period is 100.000000 timesteps.
+Run 620000 steps.
+The number of steps should be set to 620000!
+Nonequilibrium thermodynamic integration: t_switch is 300000 timestep, t_equil is 10000 timesteps.
+---------------------------------------
+Estimating spring constants from MSD...
+  Cs --- 0.272882 eV/A^2
+  I --- 0.394613 eV/A^2
+  Pb --- 0.937901 eV/A^2
+---------------------------------------
+    62000 steps completed.
+    124000 steps completed.
+    186000 steps completed.
+    248000 steps completed.
+    310000 steps completed.
+    372000 steps completed.
+    434000 steps completed.
+    496000 steps completed.
+    558000 steps completed.
+    620000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 831.471 second.
+Speed of this run = 6.44256e+06 atom*step/second.
+---------------------------------------------------------------
+
+Use Nose-Hoover thermostat and Parrinello-Rahman barostat.
+Use NPT ensemble for this run.
+Thermostat: t_start is 300.000000, t_stop is 300.000000, t_period is 100.000000 timesteps
+xx : p_start is 0.000101, p_stop is 0.000101, p_period is 1000.000000 timesteps
+xy will not be changed.
+xz will not be changed.
+yx will not be changed.
+yy : p_start is 0.000101, p_stop is 0.000101, p_period is 1000.000000 timesteps
+yz will not be changed.
+zx will not be changed.
+zy will not be changed.
+zz : p_start is 0.000101, p_stop is 0.000101, p_period is 1000.000000 timesteps
+Nonequilibrium thermodynamic integration:
+    temp_start is 300.000000 K.
+    temp_max is 700.000000 K.
+    final lambda value is 0.428571.
+Closing ti_spring output file...
+
+-----------------------------------------------------------------------
+Free energy of reference system (Einstein crystal): -0.153091 eV/atom.
+Free energy difference: -31.870009 eV/atom.
+Pressure: 0.000000 eV/A^3 = 0.000000 GPa.
+Volume: 47.644732 A^3.
+Helmholtz free energy of the system of interest: -32.023100 eV/atom.
+Gibbs free energy of the system of interest: -32.023100 eV/atom.
+These values are stored in ti_spring.yaml.
+-----------------------------------------------------------------------
+Run 620000 steps.
+    The number of steps should be set to 600000!
+Nonequilibrium thermodynamic integration: t_switch is 300000 timestep, t_equil is 10000 timesteps.
+MTTK initializing...
+    62000 steps completed.
+    124000 steps completed.
+    186000 steps completed.
+    248000 steps completed.
+    310000 steps completed.
+    372000 steps completed.
+    434000 steps completed.
+    496000 steps completed.
+    558000 steps completed.
+    620000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 845.013 second.
+Speed of this run = 6.33931e+06 atom*step/second.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 1685.530179 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+
+Closing ti_rs output file...
