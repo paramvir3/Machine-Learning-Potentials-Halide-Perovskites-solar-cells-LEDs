@@ -11,7 +11,7 @@
   3. All kinds of phase transitions can be performed for example titled phase transitions, mixed cation-anion perovskite crystallization from homogeneous mixtures of ions, non-perovskite to perovskite phase transitions, nucleation from solutions etc.
   4. Also perovskite LEDs and their components
      
-  Important Note: Testing is under progress for many aspects since last year, finetuning is recommended for targeted problems
+  Important Note: Testing is under progress for many aspects since last year **AGAINST EXPERIMENTS,** finetuning is recommended for targeted problems
      
 - Use experimental structures https://github.com/paramvir3/Crystal-Structures-Halide-perovskite of halide perovskites
 
