@@ -99,7 +99,7 @@
 17. Picosecond quantum transients in halide perovskite nanodomain superlattices. Nat. Nanotechnol. (2025). https://doi.org/10.1038/s41565-025-02036-6
 18. Layer-by-layer epitaxial growth of perovskite heterostructures with tunable band offsets.Science390,716-721(2025). https://doi.org/10.1126/science.adx5685
 
-## Fundamental Inspirations: 
+## Fundamental Inspirations: Quantum Heterostructures
 1. https://www.nobelprize.org/uploads/2018/06/esaki-lecture.pdf
 2. Double heterostructure: https://www.nobelprize.org/uploads/2018/06/alferov-lecture.pdf
 3. Double heterostructure: Polar-on-nonpolar epitaxy: https://doi.org/10.1016/0022-0248(87)90391-5
