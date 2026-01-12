@@ -23,7 +23,7 @@
 * LAMMPS:
 * NEP-GPUMD:
 * Nequip:
-* PET-PERO:
+* PET:
 * PLUMED:https://github.com/paramvir3/plumed2
 * Quantum espresso:
 * VASP:
