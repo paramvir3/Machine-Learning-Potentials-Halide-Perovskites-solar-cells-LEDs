@@ -30,7 +30,7 @@
 * 7Net:
 
 ## Features
-- CsPbBr<sub>3</sub> [1] -- NEQUIP message passing machine learning interatomic potentials, Experiments (Discoveries) [16,18]
+- CsPbBr<sub>3</sub> [1] -- NEQUIP message passing machine learning interatomic potentials, Experiments (Discoveries) [16,18,19]
 
 ![melt_crystal](https://github.com/ahlawat-paramvir/MLIP-Perovskites/assets/10708344/803ad827-2fea-4ed7-8696-f46d1f5ee1fe)
 
@@ -98,7 +98,8 @@
 16. Long-distance remote epitaxy. Nature 646, 584–591 (2025). https://doi.org/10.1038/s41586-025-09484-z
 17. Picosecond quantum transients in halide perovskite nanodomain superlattices. Nat. Nanotechnol. (2025). https://doi.org/10.1038/s41565-025-02036-6
 18. Layer-by-layer epitaxial growth of perovskite heterostructures with tunable band offsets.Science390,716-721(2025). https://doi.org/10.1126/science.adx5685
-
+19. Melt-Quenched CsPbBr3 Perovskites with Bright Orange Defect Emission: https://doi.org/10.1002/adfm.202527020
+    
 ## Fundamental Inspirations: Quantum Heterostructures
 1. https://www.nobelprize.org/uploads/2018/06/esaki-lecture.pdf
 2. Double heterostructure: https://www.nobelprize.org/uploads/2018/06/alferov-lecture.pdf
