@@ -112,5 +112,5 @@
 
 
 ## Contact
-please raise issues, or write to paramvir.chem@gmail.com
+paramvir.chem@gmail.com
 
