@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2404.05644)
 [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.11599) 
-[![Science](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://doi.org/10.1126/science.aeb7992) 
+[![Science](https://img.shields.io/badge/Science-1234.56789-b31b1b.svg)](https://doi.org/10.1126/science.aeb7992) 
 
 ## General Information
 - r2SCAN_rVV10-GRACE-1Layer-FOUNDATIONAL model can be used for:
