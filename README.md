@@ -101,6 +101,7 @@
 18. Layer-by-layer epitaxial growth of perovskite heterostructures with tunable band offsets.Science390,716-721(2025). https://doi.org/10.1126/science.adx5685
 19. Melt-Quenched CsPbBr3 Perovskites with Bright Orange Defect Emission: https://doi.org/10.1002/adfm.202527020
 20. Atomic Structure of Grain Boundaries, Dislocations and Associated Strain in Templated Co-evaporated Photoactive Halide Perovskiteshttps://arxiv.org/pdf/2604.04446
+21. Resolving intrinsic dislocation structure in perovskite crystals using pulsed electron beam with atomic resolution: https://doi.org/10.1038/s41467-026-74440-y
     
 ## Fundamental Inspirations: Quantum Heterostructures
 1. https://www.nobelprize.org/uploads/2018/06/esaki-lecture.pdf
