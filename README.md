@@ -102,7 +102,8 @@
 19. Melt-Quenched CsPbBr3 Perovskites with Bright Orange Defect Emission: https://doi.org/10.1002/adfm.202527020
 20. Atomic Structure of Grain Boundaries, Dislocations and Associated Strain in Templated Co-evaporated Photoactive Halide Perovskites https://arxiv.org/pdf/2604.04446
 21. Resolving intrinsic dislocation structure in perovskite crystals using pulsed electron beam with atomic resolution: https://doi.org/10.1038/s41467-026-74440-y
-22. Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes. Nat. Nanotechnol. (2026). https://doi.org/10.1038/s41565-026-02208-y 
+22. Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes. Nat. Nanotechnol. (2026). https://doi.org/10.1038/s41565-026-02208-y
+23. Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells. Nat Energy (2026). https://doi.org/10.1038/s41560-026-02093-8
     
 ## Fundamental Inspirations: Quantum Heterostructures
 1. https://www.nobelprize.org/uploads/2018/06/esaki-lecture.pdf
