@@ -97,13 +97,14 @@
 14. Nanoscale heterophase regulation enables sunlight-like full-spectrum white electroluminescence. Nat Commun 16, 3621 (2025). https://doi.org/10.1038/s41467-025-58743-0
 15. Intermediate phase evolution for stable and oriented evaporated wide-bandgap perovskite solar cells. Nat. Mater. (2025). https://doi.org/10.1038/s41563-025-02375-8
 16. Long-distance remote epitaxy. Nature 646, 584–591 (2025). https://doi.org/10.1038/s41586-025-09484-z
-17. Picosecond quantum transients in halide perovskite nanodomain superlattices. Nat. Nanotechnol. (2025). https://doi.org/10.1038/s41565-025-02036-6
-18. Layer-by-layer epitaxial growth of perovskite heterostructures with tunable band offsets.Science390,716-721(2025). https://doi.org/10.1126/science.adx5685
+17. Picosecond quantum transients in halide perovskite nanodomain superlattices. Nat. Nanotechnol (2025) https://doi.org/10.1038/s41565-025-02036-6
+18. Layer-by-layer epitaxial growth of perovskite heterostructures with tunable band offsets. Science390,716-721(2025) https://doi.org/10.1126/science.adx5685
 19. Melt-Quenched CsPbBr3 Perovskites with Bright Orange Defect Emission: https://doi.org/10.1002/adfm.202527020
-20. Atomic Structure of Grain Boundaries, Dislocations and Associated Strain in Templated Co-evaporated Photoactive Halide Perovskites https://arxiv.org/pdf/2604.04446
+20. Atomic Structure of Grain Boundaries, Dislocations and Associated Strain in Templated Co-evaporated Photoactive Halide Perovskites: https://arxiv.org/pdf/2604.04446
 21. Resolving intrinsic dislocation structure in perovskite crystals using pulsed electron beam with atomic resolution: https://doi.org/10.1038/s41467-026-74440-y
-22. Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes. Nat. Nanotechnol. (2026). https://doi.org/10.1038/s41565-026-02208-y
-23. Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells. Nat Energy (2026). https://doi.org/10.1038/s41560-026-02093-8
+22. Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes: Nat. Nanotechnol (2026) https://doi.org/10.1038/s41565-026-02208-y
+23. Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells: Nat Energy (2026) https://doi.org/10.1038/s41560-026-02093-8
+24. Ligand-engineered nanocrystal seeds enable certified 27.07% steady-state efficiency in inverted perovskite solar cells: https://doi.org/10.1039/d6ee02888h
     
 ## Fundamental Inspirations: Quantum Heterostructures
 1. https://www.nobelprize.org/uploads/2018/06/esaki-lecture.pdf
